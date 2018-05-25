@@ -55,8 +55,8 @@ void solve()
 
 int main()
 {
-	freopen("1213.in.txt","r",stdin);
-	freopen("1213.out.txt","w",stdout);
+	// freopen("1213.in.txt","r",stdin);
+	// freopen("1213.out.txt","w",stdout);
 	
 	sieve();
 	
