@@ -115,6 +115,7 @@ int main()
 		
 				if(xx>=1&&xx<=row&&yy>=1&&yy<=col)
 				{
+					/* speed up 
 					if(B[xx][yy]=='B') 
 					{
 						//printf("%d %d\n",xx,yy);
@@ -122,6 +123,7 @@ int main()
 						flag = 1;
 						break;
 					}
+					*/
 					//printf("OK\n");
 					//printf("%d\n",i);
 					if(B[xx][yy]!='X'&&B[xx][yy]!='Z'&&visited[xx][yy]==0)
